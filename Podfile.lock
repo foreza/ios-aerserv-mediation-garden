@@ -1,0 +1,21 @@
+PODS:
+  - inmobi-ios-sdk (8.1.2)
+
+DEPENDENCIES:
+  - inmobi-ios-sdk (from `https://bitbucket.org/aerservllc/inmobi-ios-sdk-pod.git`)
+
+EXTERNAL SOURCES:
+  inmobi-ios-sdk:
+    :git: https://bitbucket.org/aerservllc/inmobi-ios-sdk-pod.git
+
+CHECKOUT OPTIONS:
+  inmobi-ios-sdk:
+    :commit: bcb5c03e6d5651a7b4be21ac6a2b02bb922d7a1c
+    :git: https://bitbucket.org/aerservllc/inmobi-ios-sdk-pod.git
+
+SPEC CHECKSUMS:
+  inmobi-ios-sdk: 0fb4be78fb9278a4ad5b68990be72d695e87a73d
+
+PODFILE CHECKSUM: 9e52cf85ecdd0fca24ae75c3e66f3c2a6958e1a4
+
+COCOAPODS: 1.5.3

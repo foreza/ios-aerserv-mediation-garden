@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920AB61B22E9093900659BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AB61A22E9093900659BA2 /* AppDelegate.m */; };
+		920AB61E22E9093900659BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AB61D22E9093900659BA2 /* ViewController.m */; };
+		920AB62122E9093900659BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920AB61F22E9093900659BA2 /* Main.storyboard */; };
+		920AB62322E9093A00659BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920AB62222E9093A00659BA2 /* Assets.xcassets */; };
+		920AB62622E9093A00659BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920AB62422E9093A00659BA2 /* LaunchScreen.storyboard */; };
+		920AB62922E9093A00659BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920AB62822E9093A00659BA2 /* main.m */; };
+		9295728D22E910F40077C826 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295728C22E910F40077C826 /* WebKit.framework */; };
+		9295728F22E910FE0077C826 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9295728E22E910FE0077C826 /* libxml2.2.tbd */; };
+		ACD3AE7D95172B6550F2C8EB /* libPods-MediationGarden.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D444C80F126112E1910D78FE /* libPods-MediationGarden.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EFA1D5A9DE7BF7CD835C0A7 /* Pods-MediationGarden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationGarden.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediationGarden/Pods-MediationGarden.release.xcconfig"; sourceTree = "<group>"; };
+		2CA275B159DA568161D5EF7A /* Pods-MediationGarden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediationGarden.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediationGarden/Pods-MediationGarden.debug.xcconfig"; sourceTree = "<group>"; };
+		920AB61622E9093900659BA2 /* MediationGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediationGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920AB61922E9093900659BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		920AB61A22E9093900659BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		920AB61C22E9093900659BA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		920AB61D22E9093900659BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		920AB62022E9093900659BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		920AB62222E9093A00659BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920AB62522E9093A00659BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		920AB62722E9093A00659BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920AB62822E9093A00659BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9295728C22E910F40077C826 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9295728E22E910FE0077C826 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D444C80F126112E1910D78FE /* libPods-MediationGarden.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediationGarden.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920AB61322E9093900659BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295728F22E910FE0077C826 /* libxml2.2.tbd in Frameworks */,
+				9295728D22E910F40077C826 /* WebKit.framework in Frameworks */,
+				ACD3AE7D95172B6550F2C8EB /* libPods-MediationGarden.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D101CB176A8BE69966CC7B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9295728E22E910FE0077C826 /* libxml2.2.tbd */,
+				9295728C22E910F40077C826 /* WebKit.framework */,
+				D444C80F126112E1910D78FE /* libPods-MediationGarden.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839161D94562EA4780048A04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CA275B159DA568161D5EF7A /* Pods-MediationGarden.debug.xcconfig */,
+				0EFA1D5A9DE7BF7CD835C0A7 /* Pods-MediationGarden.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		920AB60D22E9093800659BA2 = {
+			isa = PBXGroup;
+			children = (
+				920AB61822E9093900659BA2 /* MediationGarden */,
+				920AB61722E9093900659BA2 /* Products */,
+				839161D94562EA4780048A04 /* Pods */,
+				5D101CB176A8BE69966CC7B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		920AB61722E9093900659BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920AB61622E9093900659BA2 /* MediationGarden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920AB61822E9093900659BA2 /* MediationGarden */ = {
+			isa = PBXGroup;
+			children = (
+				920AB61922E9093900659BA2 /* AppDelegate.h */,
+				920AB61A22E9093900659BA2 /* AppDelegate.m */,
+				920AB61C22E9093900659BA2 /* ViewController.h */,
+				920AB61D22E9093900659BA2 /* ViewController.m */,
+				920AB61F22E9093900659BA2 /* Main.storyboard */,
+				920AB62222E9093A00659BA2 /* Assets.xcassets */,
+				920AB62422E9093A00659BA2 /* LaunchScreen.storyboard */,
+				920AB62722E9093A00659BA2 /* Info.plist */,
+				920AB62822E9093A00659BA2 /* main.m */,
+			);
+			path = MediationGarden;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920AB61522E9093900659BA2 /* MediationGarden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920AB62C22E9093A00659BA2 /* Build configuration list for PBXNativeTarget "MediationGarden" */;
+			buildPhases = (
+				E197285293394B97D5D19F40 /* [CP] Check Pods Manifest.lock */,
+				920AB61222E9093900659BA2 /* Sources */,
+				920AB61322E9093900659BA2 /* Frameworks */,
+				920AB61422E9093900659BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediationGarden;
+			productName = MediationGarden;
+			productReference = 920AB61622E9093900659BA2 /* MediationGarden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920AB60E22E9093800659BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jason C";
+				TargetAttributes = {
+					920AB61522E9093900659BA2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 920AB61122E9093800659BA2 /* Build configuration list for PBXProject "MediationGarden" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920AB60D22E9093800659BA2;
+			productRefGroup = 920AB61722E9093900659BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920AB61522E9093900659BA2 /* MediationGarden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920AB61422E9093900659BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920AB62622E9093A00659BA2 /* LaunchScreen.storyboard in Resources */,
+				920AB62322E9093A00659BA2 /* Assets.xcassets in Resources */,
+				920AB62122E9093900659BA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E197285293394B97D5D19F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediationGarden-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920AB61222E9093900659BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920AB61E22E9093900659BA2 /* ViewController.m in Sources */,
+				920AB62922E9093A00659BA2 /* main.m in Sources */,
+				920AB61B22E9093900659BA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		920AB61F22E9093900659BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920AB62022E9093900659BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		920AB62422E9093A00659BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920AB62522E9093A00659BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920AB62A22E9093A00659BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		920AB62B22E9093A00659BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920AB62D22E9093A00659BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA275B159DA568161D5EF7A /* Pods-MediationGarden.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L36D2F8J6M;
+				INFOPLIST_FILE = MediationGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vartyr.MediationGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		920AB62E22E9093A00659BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFA1D5A9DE7BF7CD835C0A7 /* Pods-MediationGarden.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L36D2F8J6M;
+				INFOPLIST_FILE = MediationGarden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vartyr.MediationGarden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920AB61122E9093800659BA2 /* Build configuration list for PBXProject "MediationGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920AB62A22E9093A00659BA2 /* Debug */,
+				920AB62B22E9093A00659BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920AB62C22E9093A00659BA2 /* Build configuration list for PBXNativeTarget "MediationGarden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920AB62D22E9093A00659BA2 /* Debug */,
+				920AB62E22E9093A00659BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920AB60E22E9093800659BA2 /* Project object */;
+}
