@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <InMobiSDK/InMobiSDK.h>
+
 
 
 @interface AppDelegate ()
@@ -20,6 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [AerServSDK initializeWithAppID:@"380000" andGDPRUserConsent:YES];
+    
+    [[DTBAds sharedInstance] setAppKey: kAPSAppId];
+    [[DTBAds sharedInstance] setTestMode:YES];
     
     return YES;
 }

@@ -8,12 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import <InMobiSDK/InMobiSDK.h>
+#import <DTBiOSSDK/DTBiOSSDK.h>
+#import "Constants.h"
 
-
-@interface ViewController : UIViewController <ASAdViewDelegate>
+@interface ViewController : UIViewController <ASAdViewDelegate, DTBAdCallback>
 
     
     @property(nonatomic, strong) ASAdView* asAdView;
+
+
+    @property (nonatomic, strong) DTBAdLoader *adLoader;        // For loading APS ads
+
+
 
 
 @end

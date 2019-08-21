@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
+#import <InMobiSDK/InMobiSDK.h>
+#import <DTBiOSSDK/DTBiOSSDK.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
